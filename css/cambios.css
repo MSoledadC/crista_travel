@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,200;1,300&family=Poppins:ital,wght@0,200;0,400;1,100&display=swap');
+
+.body {
+    font-family: 'Josefin Sans', sans-serif !important;
+}
+
+a {
+    color: #04a4bc;
+}
+
+
+.btn-primary {
+    background-color: #04a4bc;
+}
+
+.btn-wrapper {
+    position: fixed;
+    right: 20px;
+    bottom: 35px;
+    z-index: 10;
+}
+
+.site-section {
+    padding: 10px;
+}
+
+.site-footer {
+    padding: 10px;
+    background: #e4eef1;
+}
