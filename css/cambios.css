@@ -10,7 +10,7 @@ a {
 
 
 .btn-primary {
-    background-color: #04a4bc;
+    background-color: #a44434;
 }
 
 .btn-wrapper {
@@ -20,11 +20,21 @@ a {
     z-index: 10;
 }
 
+.text-primaryservicios {
+    line-height: 0;
+    font-size: 3rem;
+    color: #ef6c57;
+}
+
 .site-section {
     padding: 10px;
 }
 
 .site-footer {
     padding: 10px;
-    background: #e4eef1;
+    background: #ac545c;
+}
+
+.list-unstyled {
+    color: #fff;
 }
