@@ -21,9 +21,9 @@ a {
 }
 
 .text-primaryservicios {
-    line-height: 0;
-    font-size: 3rem;
-    color: #ef6c57;
+    line-height: 0 !important;
+    font-size: 3rem !important;
+    color: #ef6c57 !important;
 }
 
 .site-section {
