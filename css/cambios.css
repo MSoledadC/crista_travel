@@ -8,9 +8,21 @@ a {
     color: #04a4bc;
 }
 
+.site-navbar {
+    background: #c6b791;
+}
+
+.dropdown {
+    background:#c6b791 !important;
+ }
 
 .btn-primary {
-    background-color: #a44434;
+    background-color: #c6b791;
+    transition: color 0.3s; /* Transición suave del color */
+}
+
+.btn-primary:hover  {
+    background-color:#aa413c !important;
 }
 
 .btn-wrapper {
@@ -32,7 +44,7 @@ a {
 
 .site-footer {
     padding: 10px;
-    background: #ac545c;
+    background: #aa413c;
 }
 
 .list-unstyled {
