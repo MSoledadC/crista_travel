@@ -47,6 +47,10 @@ a {
     padding: 10px;
 }
 
+.p-5{
+    padding: 1rem!important;
+
+}
 .site-footer {
     padding: 15px;
     background: #aa413c;
