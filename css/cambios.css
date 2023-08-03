@@ -48,8 +48,12 @@ a {
 }
 
 .site-footer {
-    padding: 10px;
+    padding: 15px;
     background: #aa413c;
+}
+
+.site-footer p {
+    margin-bottom: 0px;
 }
 
 .list-unstyled {
