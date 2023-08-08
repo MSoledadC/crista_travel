@@ -63,3 +63,25 @@ a {
 .list-unstyled {
     color: #fff;
 }
+
+/* TABLETS */
+@media (max-width: 950px) {
+    .site-mobile-menu  {
+        background-color: transparent;
+        
+    }
+    
+}
+
+
+/* MOBILES */
+@media (max-width: 650px) {
+
+.site-mobile-menu  {
+    background-color: transparent;
+    width: 200px;
+}
+
+
+
+}
