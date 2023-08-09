@@ -10,12 +10,21 @@ body {
   }
 
 a {
-    color: #04a4bc;
+    color: #ef6c57;
 }
 
 .site-navbar {
     background: #c6b791;
 }
+
+.slide-one-item.home-slider .owl-prev, .slide-one-item.home-slider .owl-next {
+    background:#c6b791;
+ }
+
+ .slide-one-item.home-slider .owl-prev, .slide-one-item.home-slider .owl-next:hover {
+    background:#c6b791 !important;
+ }
+
 
 .dropdown {
     background:#c6b791 !important;
@@ -24,10 +33,13 @@ a {
 .btn-primary {
     background-color: #c6b791;
     transition: color 0.3s; /* Transición suave del color */
+    border-radius: 5px;
 }
 
-.btn-primary:hover  {
+.btn.btn-primary:hover {
+    color:#fff !important;
     background-color:#aa413c !important;
+    border: 2px solid #c6b791;
 }
 
 .btn-wrapper {
