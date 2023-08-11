@@ -4,18 +4,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $apellido = $_POST["apellido"];
     $email = $_POST["email"];
     $asunto = $_POST["asunto"];
-    
-    $
-$mensaje = $_POST["mensaje"];
+    $mensaje = $_POST["mensaje"];
 
     $destinatario = "mariasoledadcabanillas@gmail.com";
-    $asuntoEmail = "Nuevo mensaje de contacto desde el sitio web";
+    $asuntoEmail = "Nuevo mensaje desde el formulario de contacto";
 
-    $contenido = "Nombre: $nombre\n";
-    $contenido .= "Apellido: $apellido\n";
-    
-    $
-$contenido .= "Email: $email\n";
+    $contenido = "Nombre: $nombre $apellido\n";
+    $contenido .= "Email: $email\n";
     $contenido .= "Asunto: $asunto\n";
     $contenido .= "Mensaje:\n$mensaje";
 
