@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $cabeceras = "From: $email";
 
-    mail($destinatario, $asuntoEmail, $contenido, $cabeceras);
+    mail($destinatario, $asunto, $email, $contenido, $cabeceras);
 
     echo "Mensaje enviado correctamente. Gracias por tu contacto.";
 } else {
