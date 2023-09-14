@@ -156,9 +156,6 @@ a {
 
 }
 
-.offers_area {
-    padding-bottom: 20px;
-}
 
 @media (max-width: 767px) {
     .offers_area {
@@ -168,6 +165,7 @@ a {
 
 .offers_area.padding_top {
     padding-top: 50px;
+    padding-bottom: 20px;
 }
 
 @media (max-width: 767px) {
@@ -232,6 +230,8 @@ a {
 .offers_area .single_offers ul {
     margin-top: 17px;
     margin-bottom: 30px;
+    list-style-type: none !important;
+    height: 115px;
 }
 
 .offers_area .single_offers ul li {
@@ -256,15 +256,16 @@ a {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     border-radius: 50%;
+    
 }
 
 .offers_area .single_offers a {
-    width: 100%;
+    width: 50%;
     text-align: center;
 }
 
 .offers_area .single_offers:hover .about_thumb img {
-    width: 100%;
+     width: 100%;
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
