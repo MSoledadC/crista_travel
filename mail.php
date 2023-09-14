@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $contenido = "Nombre: $nombre $apellido\n";
     $contenido .= "Email: $email\n";
     $contenido .= "Asunto: $asunto\n";
-    $contenido .= "Mensaje:\n$mensaje";
+    $contenido .= "Mensaje: $mensaje\n";
 
     $cabeceras = "From: $email";
 
