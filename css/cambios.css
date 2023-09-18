@@ -121,22 +121,7 @@ a {
     border-bottom: 1px solid #ddd;
 }
 
-.main-button a {
-    font-size: 14px;
-    color: #fff;
-    border: 1px solid #22b3c1;
-    padding: 12px 30px;
-    display: inline-block;
-    border-radius: 25px;
-    font-weight: 500;
-    text-transform: capitalize;
-    letter-spacing: 0.5px;
-    transition: all .3s;
-    position: relative;
-    overflow: hidden;
-    background: linear-gradient(90deg, rgba(0, 122, 114, 1) 0%, rgba(13, 191, 111, 1) 100%);
-    text-align: center;
-}
+
 
 .section-heading h2 {
     margin-top: 0px;
@@ -146,7 +131,7 @@ a {
     font-weight: 700;
     text-transform: capitalize;
     color: #2a2a2a;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .amazing-deals .itinerario p {
@@ -156,40 +141,9 @@ a {
 
 }
 
-
-@media (max-width: 767px) {
-    .offers_area {
-        padding-bottom: 40px;
-    }
-}
-
 .offers_area.padding_top {
     padding-top: 50px;
     padding-bottom: 20px;
-}
-
-@media (max-width: 767px) {
-    .offers_area.padding_top {
-        padding-top: 40px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .offers_area.padding_top {
-        padding-top: 50px;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
-    .offers_area.padding_top {
-        padding-top: 50px;
-    }
-}
-
-@media (max-width: 767px) {
-    .offers_area .single_offers {
-        margin-bottom: 30px;
-    }
 }
 
 .offers_area .single_offers .about_thumb {
@@ -213,18 +167,6 @@ a {
     font-weight: 400;
     color: #1F1F1F;
     margin-top: 32px
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .offers_area .single_offers h3 {
-        font-size: 18px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .offers_area .single_offers h3 br {
-        display: none;
-    }
 }
 
 .offers_area .single_offers ul {
@@ -295,27 +237,6 @@ a {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* Estilos para el botón de cierre */
-
-.close-popup{
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-top: 10px;  
-}
-
-#close-popup {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-top: 10px;
-}
 
 /* TABLETS */
 @media (max-width: 950px) {
@@ -326,6 +247,56 @@ a {
 
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+    .offers_area .single_offers h3 {
+        font-size: 18px;
+        display: none;
+    }
+    .offers_area.padding_top {
+        padding-top: 50px;
+    }
+
+    .offers_area .single_offers ul {
+        margin-bottom: 190px;
+    }
+
+    .offers_area .single_offers a {
+        width: 100%;
+    }   
+
+    .itinerario {
+        background-color: #fff;
+    }   
+
+    .site-section {
+        margin-top: 70px;
+    } 
+
+
+}
+
+
+@media (max-width: 767px) {
+    .offers_area.padding_top {
+        padding-top: 40px;
+    }
+
+    .offers_area {
+        padding-bottom: 40px;
+    }
+
+    .offers_area .single_offers {
+        margin-bottom: 30px;
+    }
+        
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .offers_area.padding_top {
+        padding-top: 50px;
+    }
+}
+
 
 /* MOBILES */
 @media (max-width: 650px) {
@@ -334,6 +305,20 @@ a {
         background-color: transparent;
         width: 200px;
     }
+
+    #popup-container {
+        left: 0;
+        width: 100%;
+
+    }
+
+    .itinerario {
+        background-color: #fff;
+    } 
+
+    .site-section {
+        margin-top: 50px;
+    } 
 
 
 
